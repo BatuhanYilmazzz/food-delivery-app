@@ -1,7 +1,8 @@
 // Dummy Datas
 import {icons, images} from '../constants';
+
 const initialCurrentLocation = {
-  streetName: 'Kuching',
+  streetName: 'Göksun',
   gps: {
     latitude: 1.5496614931250685,
     longitude: 110.36381866919922,
@@ -311,7 +312,7 @@ const restaurantData = [
     ],
   },
 ];
-export default {
+export {
   initialCurrentLocation,
   categoryData,
   affordable,
